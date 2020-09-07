@@ -130,7 +130,7 @@ $(window).on('load', function() {
         nav: true,
         items: 1,
         dots: false,
-        navText: ['<img src="img/angle-left-w.png"alt="">', '<img src="img/angle-rignt-w.png" alt="">'],
+        navText: ['<img src="angle-rignt-w.png"alt="">', '<img src="angle-rignt-w.png" alt="">'],
 	});
 
 
@@ -202,6 +202,11 @@ $(window).on('load', function() {
 		}
 
 	});
+	$(document).ready(function () {
+		$('.venobox').venobox();
+	});
+	$("#firstlink").venobox().trigger('click');
+
 
 	
 	
